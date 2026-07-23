@@ -2,15 +2,16 @@ workflows:
   flutter-build:
     name: Project Flash - Build & Test
     max_build_duration: 60
-    instance_type: mac_mini_m1
+    instance_type: mac_mini_m2
     environment:
       flutter: stable
       xcode: latest
       cocoapods: default
+      java: 17
     scripts:
       - name: Get Flutter dependencies
         script: |
-          flutter packages pub get
+          flutter pub get
       - name: Generate Code
         script: |
           dart run build_runner build --delete-conflicting-outputs
