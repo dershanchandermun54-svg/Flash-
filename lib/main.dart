@@ -31,3 +31,4 @@ class FlashApp extends ConsumerWidget {
   }
 }
 mkdir -p assets/images assets/icons assets/animations
+final myVariable = "value";
