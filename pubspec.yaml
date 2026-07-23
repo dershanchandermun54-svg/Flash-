@@ -8,8 +8,12 @@ environment:
 
 dependencies:
   flutter:
+  dependencies:
+  flutter:
     sdk: flutter
-  
+  flutter_riverpod: ^2.5.1 # Or latest version
+  go_router: ^14.0.0       # Or latest version
+
   # UI & Design
   cupertino_icons: ^1.0.6
   google_fonts: ^6.1.0
