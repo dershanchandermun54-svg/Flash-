@@ -1,4 +1,4 @@
-name: project_flash
+9name: project_flash
 description: "A new Flutter project for Project Flash."
 publish_to: 'none' # Prevents accidental publishing to pub.dev
 
@@ -23,6 +23,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+git add pubspec.yaml
+git commit -m "fix: resolve duplicate keys in pubspec.yaml"
+git push
 
   # To add assets like images to your application:
   # assets:
