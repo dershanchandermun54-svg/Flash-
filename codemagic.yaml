@@ -14,7 +14,7 @@ workflows:
           flutter pub get
       - name: Generate Code
         script: |
-          dart run build_runner build --delete-conflicting-outputs
+          dart run build_runner build -
       - name: Flutter analyze
         script: |
           flutter analyze
