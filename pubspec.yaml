@@ -5,7 +5,7 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.0.0 <4.0.0'
 dependencies: 
-  flutter:permission_handler: ^12.0.0
+  flutter:permission_handler: ^12.0.3
     sdk: flutter
   # UI & Design
   cupertino_icons: ^1.0.6
@@ -45,7 +45,7 @@ dependencies:
   # Camera
   camera: ^0.10.5
   # Permissions
-  permission_handler: ^11.4.4
+  permission_handler: ^12.0.3
   # Logging & Analytics
   firebase_analytics: ^10.7.0
   logger: ^2.0.2+1
