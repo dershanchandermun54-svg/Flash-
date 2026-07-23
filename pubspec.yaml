@@ -29,8 +29,8 @@ dependencies:
   retrofit: ^4.4.1
   
   # Local Storage
-  hive: ^2.0.0
-  hive_flutter: ^2.0.0
+  hive_ce: ^2.0.0
+  hive_ce_flutter: ^2.0.0
   shared_preferences: ^2.2.1
   
   # Location & Maps
