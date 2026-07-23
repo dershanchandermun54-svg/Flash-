@@ -1,27 +1,4 @@
-Skip to content
-Flash-
-Repository navigation
-Code
-Issues
-Pull requests
-Commit 3c2ec6e
-dershanchandermun54-svg
-dershanchandermun54-svg
-authored
-4 hours ago
-Verified
-Delete README.md
-main
-1 parent 
-82917be
- commit 
-3c2ec6e
-1 file changed
 
--315
-Lines changed: 0 additions & 315 deletions
-Search within code
- 
 ‎README.md‎
 Original file line number	Diff line number	Diff line change
 @@ -1,315 +0,0 @@
