@@ -33,15 +33,11 @@ class FlashApp extends ConsumerWidget {
 mkdir -p assets/images assets/icons assets/animations
 final myVariable = "value";
 class MyWidget extends StatefulWidget {
-  int counter = 5; // ✅ Valid inline declaration/initialization
+  int counter = 5; // 
 
   void updateCounter() {
-    counter = 5; // ✅ Valid inside a method
+    counter = 5; // 
     print(counter);
   }void myMethod() {
-  print("Hello");
-} // ✅ Closed properly
-
-int myVariable = 10;
-
-}
+  print("Hello");} //
+int myVariable = 10;}
