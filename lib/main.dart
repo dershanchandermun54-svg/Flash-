@@ -30,36 +30,3 @@ class FlashApp extends ConsumerWidget {
     );
   }
 }
-
-// Top-level variable declaration
-const String myVariable = "value";
-
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
-
-  @override
-  State<MyWidget> createState() => _MyWidgetState();
-}
-
-class _MyWidgetState extends State<MyWidget> {
-  int counter = 5;
-
-  void updateCounter() {
-    setState(() {
-      counter = 5;
-    });
-    print(counter);
-  }
-flutter clean
-flutter pub get
-dart run build_runner build --delete-conflicting-outputs
-
-  void myMethod() {
-    print("Hello");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
