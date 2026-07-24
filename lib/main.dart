@@ -14,7 +14,7 @@ void main() async {
 }
 
 class FlashApp extends ConsumerWidget {
-  const FlashApp({Key? key}) : super(key: key);
+  const FlashApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -30,14 +30,33 @@ class FlashApp extends ConsumerWidget {
     );
   }
 }
-mkdir -p assets/images assets/icons assets/animations
-final myVariable = "value";
+
+// Top-level variable declaration
+const String myVariable = "value";
+
 class MyWidget extends StatefulWidget {
-  int counter = 5; // 
+  const MyWidget({super.key});
+
+  @override
+  State<MyWidget> createState() => _MyWidgetState();
+}
+
+class _MyWidgetState extends State<MyWidget> {
+  int counter = 5;
 
   void updateCounter() {
-    counter = 5; // 
+    setState(() {
+      counter = 5;
+    });
     print(counter);
-  }void myMethod() {
-  print("Hello");} //
-int myVariable = 10;}
+  }
+
+  void myMethod() {
+    print("Hello");
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
