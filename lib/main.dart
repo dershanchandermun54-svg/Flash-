@@ -50,6 +50,9 @@ class _MyWidgetState extends State<MyWidget> {
     });
     print(counter);
   }
+flutter clean
+flutter pub get
+dart run build_runner build --delete-conflicting-outputs
 
   void myMethod() {
     print("Hello");
