@@ -1,4 +1,4 @@
-name: flash
+  name: flash
 description: "Flash - Professional E-hailing Driver Application"
 publish_to: 'none'
 version: 1.0.0+1
@@ -94,9 +94,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    - /images/
-    - /icons/
-    - /animations/
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
 
   fonts:
     - family: Poppins
@@ -111,4 +111,3 @@ flutter:
         - asset: assets/fonts/Inter-Regular.ttf
         - asset: assets/fonts/Inter-Bold.ttf
           weight: 700
-
