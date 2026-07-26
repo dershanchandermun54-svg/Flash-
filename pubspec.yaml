@@ -24,7 +24,7 @@ dependencies:
   
   # API & Networking
   dio: ^5.7.0
-  retrofit: ^4.4.0
+  retrofit: ^8.2.1
   
   # Local Storage
   hive_ce: ^2.0.0
@@ -79,7 +79,7 @@ dev_dependencies:
   # Code Generation
   build_runner: ^2.4.0
   hive_ce_generator: ^1.0.0
-  retrofit_generator: ^9.0.0
+  retrofit_generator: ^8.2.1
   
   # Testing
   mockito: ^5.4.5
