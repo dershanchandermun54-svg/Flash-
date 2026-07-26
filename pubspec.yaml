@@ -94,11 +94,10 @@ flutter:
   uses-material-design: true
 
   assets:
-   # - assets/images/
-    #- assets/icons/
-   # - assets/animations/
+    - /images/
+    - /icons/
+    - /animations/
 
-  
   fonts:
     - family: Poppins
       fonts:
@@ -112,3 +111,4 @@ flutter:
         - asset: assets/fonts/Inter-Regular.ttf
         - asset: assets/fonts/Inter-Bold.ttf
           weight: 700
+
