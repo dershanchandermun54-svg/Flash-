@@ -1,7 +1,5 @@
 
-‎README.md‎
-Original file line number	Diff line number	Diff line change
-@@ -1,315 +0,0 @@
+‎README
 # Flash - E-hailing Driver Application
 Flash is a professional, modern e-hailing driver application built with Flutter. It provides drivers with an intuitive interface to manage rides, track earnings, and deliver exceptional service.
 ## Features
